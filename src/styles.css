@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.icon {
+  @apply border-2 border-gray-200
+  p-2
+  text-blue-400
+  rounded-full
+  h-12
+  w-12
+  cursor-pointer;
+}
+
+.error input {
+  @apply border-redM;
+}
+
+.error #message {
+  @apply block text-redM;
+}
+
+.success #message {
+  @apply block;
+}
